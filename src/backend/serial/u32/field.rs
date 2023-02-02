@@ -51,7 +51,7 @@ use zeroize::Zeroize;
 /// The backend-specific type `FieldElement2625` should not be used
 /// outside of the `curve25519_dalek::field` module.
 #[derive(Copy, Clone)]
-pub struct FieldElement2625(pub(crate) [u32; 10]);
+pub struct FieldElement2625(pub [u32; 10]);
 
 impl Debug for FieldElement2625 {
     fn fmt(&self, f: &mut ::core::fmt::Formatter) -> ::core::fmt::Result {
