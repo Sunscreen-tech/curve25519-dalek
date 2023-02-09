@@ -1007,7 +1007,7 @@ impl Scalar {
     ///    a = a\_0 + a\_1 16\^1 + \cdots + a_{63} 16\^{63},
     /// $$
     /// with \\(-8 \leq a_i < 8\\) for \\(0 \leq i < 63\\) and \\(-8 \leq a_{63} \leq 8\\).
-    pub(crate) fn as_radix_16(&self) -> [i8; 64] {
+    pub fn as_radix_16(&self) -> [i8; 64] {
         debug_assert!(self[31] <= 127);
         let mut output = [0i8; 64];
 
