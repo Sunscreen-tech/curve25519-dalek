@@ -17,8 +17,8 @@
 //!
 #![cfg_attr(feature = "precomputed-tables", doc = "```")]
 #![cfg_attr(not(feature = "precomputed-tables"), doc = "```ignore")]
-//! use curve25519_dalek::constants;
-//! use curve25519_dalek::traits::IsIdentity;
+//! use sunscreen_curve25519::constants;
+//! use sunscreen_curve25519::traits::IsIdentity;
 //!
 //! let B = constants::RISTRETTO_BASEPOINT_TABLE;
 //! let l = &constants::BASEPOINT_ORDER;

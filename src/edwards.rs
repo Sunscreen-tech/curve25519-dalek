@@ -1155,7 +1155,7 @@ impl EdwardsPoint {
     /// # Example
     ///
     /// ```
-    /// use curve25519_dalek::constants;
+    /// use sunscreen_curve25519::constants;
     ///
     /// // Generator of the prime-order subgroup
     /// let P = constants::ED25519_BASEPOINT_POINT;
@@ -1185,7 +1185,7 @@ impl EdwardsPoint {
     /// # Example
     ///
     /// ```
-    /// use curve25519_dalek::constants;
+    /// use sunscreen_curve25519::constants;
     ///
     /// // Generator of the prime-order subgroup
     /// let P = constants::ED25519_BASEPOINT_POINT;

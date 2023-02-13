@@ -86,10 +86,10 @@ pub trait MultiscalarMul {
     /// ```
     /// # #[cfg(feature = "alloc")]
     /// # {
-    /// use curve25519_dalek::constants;
-    /// use curve25519_dalek::traits::MultiscalarMul;
-    /// use curve25519_dalek::ristretto::RistrettoPoint;
-    /// use curve25519_dalek::scalar::Scalar;
+    /// use sunscreen_curve25519::constants;
+    /// use sunscreen_curve25519::traits::MultiscalarMul;
+    /// use sunscreen_curve25519::ristretto::RistrettoPoint;
+    /// use sunscreen_curve25519::scalar::Scalar;
     ///
     /// // Some scalars
     /// let a = Scalar::from(87329482u64);
@@ -141,10 +141,10 @@ pub trait VartimeMultiscalarMul {
     /// ```
     /// #[cfg(feature = "alloc")]
     /// # {
-    /// use curve25519_dalek::constants;
-    /// use curve25519_dalek::traits::VartimeMultiscalarMul;
-    /// use curve25519_dalek::ristretto::RistrettoPoint;
-    /// use curve25519_dalek::scalar::Scalar;
+    /// use sunscreen_curve25519::constants;
+    /// use sunscreen_curve25519::traits::VartimeMultiscalarMul;
+    /// use sunscreen_curve25519::ristretto::RistrettoPoint;
+    /// use sunscreen_curve25519::scalar::Scalar;
     ///
     /// // Some scalars
     /// let a = Scalar::from(87329482u64);
@@ -207,10 +207,10 @@ pub trait VartimeMultiscalarMul {
     /// ```
     /// #[cfg(feature = "alloc")]
     /// # {
-    /// use curve25519_dalek::constants;
-    /// use curve25519_dalek::traits::VartimeMultiscalarMul;
-    /// use curve25519_dalek::ristretto::RistrettoPoint;
-    /// use curve25519_dalek::scalar::Scalar;
+    /// use sunscreen_curve25519::constants;
+    /// use sunscreen_curve25519::traits::VartimeMultiscalarMul;
+    /// use sunscreen_curve25519::ristretto::RistrettoPoint;
+    /// use sunscreen_curve25519::scalar::Scalar;
     ///
     /// // Some scalars
     /// let a = Scalar::from(87329482u64);
